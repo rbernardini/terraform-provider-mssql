@@ -2,10 +2,11 @@ package provider
 
 import (
 	"context"
+	"time"
+
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/saritasa/terraform-provider-mssql/mssql"
-	"time"
+	"github.com/rbernardini/terraform-provider-mssql/mssql"
 )
 
 func Provider() *schema.Provider {

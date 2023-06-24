@@ -1,4 +1,4 @@
-module github.com/saritasa/terraform-provider-mssql
+module github.com/rbernardini/terraform-provider-mssql
 
 require (
 	cloud.google.com/go/storage v1.18.2 // indirect

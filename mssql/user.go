@@ -4,9 +4,10 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
-	"github.com/saritasa/terraform-provider-mssql/model"
 	"log"
 	"strings"
+
+	"github.com/rbernardini/terraform-provider-mssql/model"
 )
 
 func (c *Connector) CreateUser(ctx context.Context, user *model.User) error {

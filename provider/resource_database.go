@@ -4,11 +4,12 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
-	"github.com/saritasa/terraform-provider-mssql/model"
-	"github.com/saritasa/terraform-provider-mssql/mssql"
 	"log"
 	"strings"
+
+	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
+	"github.com/rbernardini/terraform-provider-mssql/model"
+	"github.com/rbernardini/terraform-provider-mssql/mssql"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 )

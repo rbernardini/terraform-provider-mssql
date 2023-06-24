@@ -3,8 +3,9 @@ package main
 import (
 	"context"
 	"flag"
-	"github.com/saritasa/terraform-provider-mssql/provider"
 	"log"
+
+	"github.com/rbernardini/terraform-provider-mssql/provider"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/plugin"
 )

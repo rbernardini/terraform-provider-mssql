@@ -3,8 +3,9 @@ package mssql
 import (
 	"context"
 	"database/sql"
-	"github.com/saritasa/terraform-provider-mssql/model"
 	"strings"
+
+	"github.com/rbernardini/terraform-provider-mssql/model"
 )
 
 func (c *Connector) GetUserOld(ctx context.Context, database, username string) (*model.User, error) {
